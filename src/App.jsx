@@ -22,9 +22,9 @@ function App() {
   return (
     <>
       <Navbar onScrollTo={scrollToSection} />
-      <div ref={homeRef} className="flex justify-center items-center"><Home/></div>
+      {/* <div ref={homeRef} className="flex justify-center items-center"><Home/></div>
       <div ref={aboutRef} className="flex justify-center items-center"><About/></div>
-      <div ref={experienceRef} className="flex justify-center items-center"><Experience/></div>
+      <div ref={experienceRef} className="flex justify-center items-center"><Experience/></div> */}
     </>
   );
 }
